@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr_CA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script type="module" src="./assets/scripts/main.js" defer></script>
+    <title>Jeux du 21</title>
+</head>
+<body>
+    <header>
+        <h1>TP 1 - Le 21</h1>
+    </header>
+    
+    <main>
+        
+
+        <div data-js-partie>
+            
+            <form>
+                <input type="number" min="2" name="nombre-joueur" value="" required>
+                <input class="inactive" type="submit" name="submit" value="Jouer !">
+            </form>
+
+            <div class="players" data-js-players></div>
+        </div>
+
+        <!-- Joueur -->
+        <!-- <div class="players" data-js-players>
+            <div class="player" >
+                <h3>Joueur #numero</h3>
+                <p>Total : <span data-js-point>0</span></p>
+                <button data-js-player-cta="hit">Jouer</button>
+                <button data-js-player-cta="stay">Stop</button>
+            </div>
+        </div> -->
+    </main>
+</body>
+</html>

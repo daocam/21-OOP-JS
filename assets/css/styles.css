@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+form div,
+form button,
+p + button {
+    margin-top: 15px;
+}
+
+input + label,
+label + label,
+span + button,
+button + button {
+    margin-left: 15px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+p {
+    margin: 15px 0 0;
+}
+
+.players {
+    margin-top: 25px; 
+}
+
+.player {
+    margin: 20px 0 0 25px ; 
+    transition: color .3s ease;
+}
+
+.inactive {
+    opacity: .5;
+    pointer-events: none; 
+}
+
+.stay {
+    opacity: .5;
+    pointer-events: none; 
+}
+
+.winner {
+    border: solid 2px green;
+}
+
+.remove {
+    display: none;
+}
